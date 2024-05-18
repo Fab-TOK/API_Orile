@@ -42,7 +42,7 @@ def upload_to_firebase(file_path):
 ########=================#########
 
 
-api_key = "your_key_here"
+api_key = "your_openai_key_here"
 
 def convert_to_wav(audio_file_path, wav_file_path):
     with audioread.audio_open(audio_file_path) as source:
